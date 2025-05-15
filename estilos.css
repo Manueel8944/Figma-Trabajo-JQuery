@@ -54,9 +54,14 @@ body {
             padding: 0.7em;
             border-radius: 1em;
             background-color: #8484E8;
+            cursor: pointer
         }
         #principal .header .menu ul li.boton a {
             color: white;
+        }
+
+        #principal .header .menu ul li.boton:hover {
+            background-color: #26268d;
         }
 
 #portada {
@@ -85,6 +90,7 @@ body {
         background-color: #8484E8;
         color: white;
         width: 5em;
+        cursor: pointer
     }
 
         #principal .hero .botones div:hover{
@@ -147,6 +153,7 @@ body {
     margin-right: 4em;
     margin-bottom: 2em;
     font-size: 1em;
+    cursor: pointer;
 }
 
 #principal .testimonios button:hover {
